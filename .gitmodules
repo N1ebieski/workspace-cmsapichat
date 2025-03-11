@@ -1,3 +1,7 @@
 [submodule "cmsapichat.pl"]
 	path = cmsapichat.pl.test
 	url = https://github.com/N1ebieski/cmsapichat.pl.git
+
+[submodule "laradock-cmsapichat"]
+	path = laradock-cmsapichat
+	url = https://github.com/N1ebieski/laradock-cmsapichat.git
