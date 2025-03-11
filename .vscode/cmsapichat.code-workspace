@@ -1,0 +1,51 @@
+{
+	"folders": [
+		{
+			"name": "cmsapichat.pl.test",
+			"path": "../cmsapichat.pl.test"
+		},
+		{
+			"name": "wordpress.cmsapichat.pl.test",
+			"path": "../wordpress.cmsapichat.pl.test"
+		},
+		{
+			"name": "icore.cmsapichat.pl.test",
+			"path": "../icore.cmsapichat.pl.test"
+		}
+	],
+	"settings": {
+		"[php]": {
+			"editor.defaultFormatter": "open-southeners.laravel-pint",
+			"editor.formatOnSave": true
+		},
+		"phpstan.configFile": "phpstan.neon",
+		"phpstan.binPath": "vendor/bin/phpstan",
+		"phpunit.phpunit": "vendor/bin/phpunit",
+		"phpunit.args": [
+			"--configuration phpunit.xml"
+		],
+		"yaml.schemas": {
+			"https://json.schemastore.org/github-workflow.json": [
+				"file:///var/www/cmsapichat.pl.test/.github/workflows/deploy.yml",
+				"file:///var/www/cmsapichat.pl.test/.github/workflows/testing.yml"
+			]
+		},
+		"intelephense.environment.phpVersion": "8.1.0",
+		"phpstan.suppressWorkspaceMessage": true,
+		"intelephense.files.exclude": [
+			"**/.git/**",
+			"**/.svn/**",
+			"**/.hg/**",
+			"**/CVS/**",
+			"**/.DS_Store/**",
+			"**/node_modules/**",
+			"**/bower_components/**",
+			"**/vendor/**/{Tests,tests}/**",
+			"**/.history/**",
+			"**/vendor/**/vendor/**",
+			"**/storage/**"
+		],
+		"phpsab.fixerEnable": false,
+		"phpsab.snifferEnable": false,
+	}
+}
