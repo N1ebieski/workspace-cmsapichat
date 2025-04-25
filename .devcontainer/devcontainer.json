@@ -8,10 +8,10 @@
         "mariadb",
         "redis",
 	    "php-fpm",
-        "docker-in-docker",
+        "docker-in-docker"
     ],
     "service": "workspace",
-    "workspaceFolder": "/var/www/cmsapichat.pl.test",
+    "workspaceFolder": "/var/www",
     "shutdownAction": "stopCompose",
     "postCreateCommand": "uname -a",
     "customizations": {
@@ -19,7 +19,7 @@
             "extensions": [
                 "austenc.laravel-blade-spacer",
                 "bmewburn.vscode-intelephense-client",
-                "${containerWorkspaceFolder}/.devcontainer/extensions/vscode-laravel-1.0.4",
+                "${containerWorkspaceFolder}/.devcontainer/extensions/vscode-laravel-1.0.5",
                 "dbaeumer.vscode-eslint",
                 "eamodio.gitlens",
                 "GitHub.vscode-pull-request-github",

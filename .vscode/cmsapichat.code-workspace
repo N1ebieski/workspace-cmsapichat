@@ -32,19 +32,6 @@
 		},
 		"intelephense.environment.phpVersion": "8.1.0",
 		"phpstan.suppressWorkspaceMessage": true,
-		"intelephense.files.exclude": [
-			"**/.git/**",
-			"**/.svn/**",
-			"**/.hg/**",
-			"**/CVS/**",
-			"**/.DS_Store/**",
-			"**/node_modules/**",
-			"**/bower_components/**",
-			"**/vendor/**/{Tests,tests}/**",
-			"**/.history/**",
-			"**/vendor/**/vendor/**",
-			"**/storage/**"
-		],
 		"phpsab.fixerEnable": false,
 		"phpsab.snifferEnable": false,
 	}
